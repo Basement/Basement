@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "build": "gulp build",
-    "release": "corp-semantic-release -- --branch master --post-success \"npm publish\""
+    "release": "corp-semantic-release -- --branch master --post-success \"npm publish --access public\""
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "gulp-clean": "^0.3.2",
     "gulp-sequence": "^0.4.6",
     "mocha": "^3.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
