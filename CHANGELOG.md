@@ -1,3 +1,19 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/basement/basement/compare/v1.6.0...v2.0.0) (2017-07-18)
+
+
+### Features
+
+* **core:** Final setup ([2e0c45f](https://github.com/basement/basement/commit/2e0c45f))
+* **Core:** New descriptive msg ([9817e72](https://github.com/basement/basement/commit/9817e72))
+
+
+### BREAKING CHANGES
+
+* **core:** Release log throw error
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/basement/basement/compare/v1.5.0...v1.6.0) (2017-07-18)
 
