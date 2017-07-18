@@ -1,3 +1,13 @@
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/basement/basement/compare/v1.5.0...v1.6.0) (2017-07-18)
+
+
+### Features
+
+* **Core:** added access to npm 6 ([69cd2d0](https://github.com/basement/basement/commit/69cd2d0))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/basement/basement/compare/v1.4.0...v1.5.0) (2017-07-18)
 
