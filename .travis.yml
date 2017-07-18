@@ -21,6 +21,7 @@ notifications:
   email: false
 after_success:
   - git checkout master
+  - git config push.default current
   - npm run release
 branches:
   only:
