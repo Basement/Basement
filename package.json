@@ -29,6 +29,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
     "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3",
     "mocha": "^3.4.2"
   },
   "publishConfig": {
