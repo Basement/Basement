@@ -1,3 +1,14 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/basement/basement/compare/v1.2.0...v1.3.0) (2017-07-18)
+
+
+### Features
+
+* **Core:** added access to npm 2 ([c74d45c](https://github.com/basement/basement/commit/c74d45c))
+* **Core:** added access to npm 3 ([a528dd8](https://github.com/basement/basement/commit/a528dd8))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/basement/basement/compare/v1.1.0...v1.2.0) (2017-07-18)
 
