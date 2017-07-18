@@ -23,6 +23,7 @@ after_success:
   - git checkout master
   - git config push.default current
   - npm run release
+  - npm adduser --registry=https://registry.npmjs.org/ --scope=@basement
   - npm publish --access public
 branches:
   only:
