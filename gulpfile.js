@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var babel = require('gulp-babel');
 var clean = require('gulp-clean');
 var gulpSequence = require('gulp-sequence');
-const shell = require('gulp-shell')
 
 gulp.task('clean', function () {
     return gulp.src('dist', {
@@ -19,17 +18,5 @@ gulp.task('compile', function () {
         }))
         .pipe(gulp.dest('dist'));
 });
-
-gulp.task('before:script', shell.task([
-    'git remote rm origin',
-    'git remote add origin https://${GH_TOKEN}@github.com/basement/basement.git'
-]));
-gulp.task('after:success', shell.task([
-    'git checkout master',
-    'git config push.default current',
-    'npm run release',
-    'npm publish --access=public',
-    'npm run release-log'
-]));
 
 gulp.task('build', gulpSequence('clean', 'compile'));
