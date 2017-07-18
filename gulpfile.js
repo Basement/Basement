@@ -28,8 +28,8 @@ gulp.task('after:success', shell.task([
     'git checkout master',
     'git config push.default current',
     'npm run release',
-    'npm run release- log',
-    'npm publish --access= public'
+    'npm publish --access=public',
+    'npm run release-log'
 ]));
 
 gulp.task('build', gulpSequence('clean', 'compile'));

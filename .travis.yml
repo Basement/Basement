@@ -13,8 +13,7 @@ before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - sleep 3
-  - git remote rm origin
-  - git remote add origin https://${GH_TOKEN}@github.com/basement/basement.git
+  - npm run before:script
 cache:
   yarn: true
 notifications:
@@ -22,11 +21,7 @@ notifications:
 before_install:
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 after_success:
-  - git checkout master
-  - git config push.default current
-  - npm run release
-  - npm publish --access=public
-  - npm run release-log
+  - npm run after:success
 branches:
   only:
     - master

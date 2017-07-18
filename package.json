@@ -7,7 +7,9 @@
     "test": "mocha",
     "build": "gulp build",
     "release": "corp-semantic-release",
-    "release-log": "conventional-github-releaser -p angular -r 0"
+    "release-log": "conventional-github-releaser -p angular -r 0",
+    "before:script": "gulp before:script",
+    "after:success": "gulp after:success"
   },
   "repository": {
     "type": "git",
