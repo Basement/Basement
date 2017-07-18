@@ -1,3 +1,26 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/basement/basement/compare/v1.0.1...v1.0.2) (2017-07-18)
+
+
+### Bug Fixes
+
+* **Core:** Updated name in main file ([9370f51](https://github.com/basement/basement/commit/9370f51))
+* **Core:** Updated package file ([fd29bb8](https://github.com/basement/basement/commit/fd29bb8))
+* **Core:** Updated package file 10 ([8317171](https://github.com/basement/basement/commit/8317171))
+* **Core:** Updated package file 11 ([1300de5](https://github.com/basement/basement/commit/1300de5))
+* **Core:** Updated package file 12 ([4d44bd7](https://github.com/basement/basement/commit/4d44bd7))
+* **Core:** Updated package file 2 ([6f9c55f](https://github.com/basement/basement/commit/6f9c55f))
+* **Core:** Updated package file 3 ([c87e76c](https://github.com/basement/basement/commit/c87e76c))
+* **Core:** Updated package file 4 ([a8290f7](https://github.com/basement/basement/commit/a8290f7))
+* **Core:** Updated package file 5 ([2263357](https://github.com/basement/basement/commit/2263357))
+* **Core:** Updated package file 6 ([3fa07f8](https://github.com/basement/basement/commit/3fa07f8))
+* **Core:** Updated package file 7 ([ba6c347](https://github.com/basement/basement/commit/ba6c347))
+* **Core:** Updated package file 8 ([245779a](https://github.com/basement/basement/commit/245779a))
+* **Core:** Updated package file 9 ([7bb0088](https://github.com/basement/basement/commit/7bb0088))
+* **Core:** Updated travis config ([ce1c522](https://github.com/basement/basement/commit/ce1c522))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/basement/basement/compare/v1.0.0...v1.0.1) (2017-07-18)
 
