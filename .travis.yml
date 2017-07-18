@@ -20,5 +20,5 @@ notifications:
 after_success:
   - npm run release
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
