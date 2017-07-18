@@ -23,8 +23,13 @@ after_success:
   - git checkout master
   - git config push.default current
   - npm run release
-  - npm adduser --registry=https://registry.npmjs.org/ --scope=@basement
-  - npm publish --access public
+  - npm publish --access=public
 branches:
   only:
     - master
+deploy:
+  provider: npm
+  email: "mexican.dirtyfellow@gmail.com"
+  api_key: ${NPM_TOKEN}
+  on:
+    - tags: true
