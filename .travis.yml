@@ -18,6 +18,7 @@ cache:
 notifications:
   email: false
 after_success:
+  - git checkout master
   - npm run release
 branches:
   only:
