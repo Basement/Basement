@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "build": "gulp build",
-    "release": "corp-semantic-release -- --branch master --post-success \"npm publish\""
+    "release": "corp-semantic-release -- --post-success \"npm publish\""
   },
   "repository": {
     "type": "git",
