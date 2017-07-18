@@ -19,17 +19,12 @@ cache:
   yarn: true
 notifications:
   email: false
+before_install:
+  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 after_success:
   - git checkout master
   - git config push.default current
   - npm run release
-  - npm publish --access=public
 branches:
   only:
     - master
-deploy:
-  provider: npm
-  email: "mexican.dirtyfellow@gmail.com"
-  api_key: ${NPM_TOKEN}
-  on:
-    - tags: true
