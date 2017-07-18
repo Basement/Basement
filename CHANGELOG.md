@@ -1,3 +1,14 @@
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/basement/basement/compare/v1.4.0...v1.5.0) (2017-07-18)
+
+
+### Features
+
+* **Core:** added access to npm 5 ([64439b8](https://github.com/basement/basement/commit/64439b8))
+* **Core:** added access to npm 5 ([337178a](https://github.com/basement/basement/commit/337178a))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/basement/basement/compare/v1.3.0...v1.4.0) (2017-07-18)
 
