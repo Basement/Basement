@@ -20,7 +20,7 @@ cache:
 notifications:
   email: false
 after_success:
-  - git checkout --track origin/master
+  - git checkout --set-upstream-to master
   - npm run release
 branches:
   only:
