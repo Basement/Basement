@@ -1,3 +1,3 @@
 const name = "Lokesh Rajendran";
 
-const getName = () => "Johh Doe!";
+const getName = () => "Peter";
